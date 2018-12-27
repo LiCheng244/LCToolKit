@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="240" id="KGk-i7-Jjw" customClass="LCMineHeaderCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="239.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Li_Cheng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1q-K9-xsS">
+                        <rect key="frame" x="118.5" y="61" width="83" height="23"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                        <color key="textColor" red="0.21199999750000001" green="0.20399999620000001" blue="0.18000000720000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="~这是一个个人的简单介绍~" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBC-X1-36F">
+                        <rect key="frame" x="79" y="114" width="163" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.58988775810000005" green="0.59572823100000005" blue="0.59572823100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="写了838383字，获得399个喜欢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yn4-JP-prh">
+                        <rect key="frame" x="63" y="150" width="193" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.58988775810000005" green="0.59572823100000005" blue="0.59572823100000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6v-38-IVj">
+                        <rect key="frame" x="117" y="186" width="86" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="编辑个人资料">
+                            <color key="titleColor" red="0.096328198769999998" green="0.58684501259999999" blue="0.56507423509999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GBC-X1-36F" firstAttribute="top" secondItem="d1q-K9-xsS" secondAttribute="bottom" constant="30" id="561-wI-nd3"/>
+                    <constraint firstItem="g6v-38-IVj" firstAttribute="top" secondItem="Yn4-JP-prh" secondAttribute="bottom" constant="20" id="68A-nv-BNb"/>
+                    <constraint firstItem="g6v-38-IVj" firstAttribute="centerX" secondItem="d1q-K9-xsS" secondAttribute="centerX" id="HIm-fz-YWm"/>
+                    <constraint firstItem="Yn4-JP-prh" firstAttribute="top" secondItem="GBC-X1-36F" secondAttribute="bottom" constant="20" id="Lsi-3m-8iA"/>
+                    <constraint firstItem="GBC-X1-36F" firstAttribute="centerX" secondItem="d1q-K9-xsS" secondAttribute="centerX" id="QJA-9V-wHH"/>
+                    <constraint firstItem="d1q-K9-xsS" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ZS2-iD-cuA"/>
+                    <constraint firstItem="Yn4-JP-prh" firstAttribute="centerX" secondItem="d1q-K9-xsS" secondAttribute="centerX" id="kne-PX-CAw"/>
+                    <constraint firstItem="d1q-K9-xsS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="50" id="tah-5b-dtD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="34" y="152"/>
+        </tableViewCell>
+    </objects>
+</document>

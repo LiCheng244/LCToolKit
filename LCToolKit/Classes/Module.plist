@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+        <key>class</key>
+        <string>LCDaryMenuViewController</string>
+        <key>title</key>
+        <string>新闻分类 拖动重排</string>
+    </dict>
+	<dict>
+		<key>class</key>
+		<string>LCCellTimerViewController</string>
+		<key>title</key>
+		<string>UITableView 中使用定时器</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>CustomTabBarController</string>
+		<key>title</key>
+		<string>自定义 Tabbar</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>广告弹出框</string>
+		<key>class</key>
+		<string>LCAlertViewController</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>LCNavBackVC</string>
+		<key>title</key>
+		<string>侧滑返回</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>LCCategoryProfileVC</string>
+		<key>title</key>
+		<string>分类加属性</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>LCMainScrollViewController</string>
+		<key>title</key>
+		<string>嵌套滚动视图</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>LCTouchViewController</string>
+		<key>title</key>
+		<string>指纹解锁</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>LCRoundViewController</string>
+		<key>title</key>
+		<string>圆角视图</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>LCVUpdateViewController</string>
+		<key>title</key>
+		<string>版本更新提醒</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>LCNetViewController</string>
+		<key>title</key>
+		<string>网络监测</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>LCADSViewController</string>
+		<key>title</key>
+		<string>广告植入</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>LCNestViewController</string>
+		<key>title</key>
+		<string>ScrollView 嵌套滑动</string>
+	</dict>
+</array>
+</plist>

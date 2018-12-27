@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LCVUpdateViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ACu-VF-hLj">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="waD-AE-Eji">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPe-ic-P4C">
+                                    <rect key="frame" x="30" y="50" width="315" height="40"/>
+                                    <color key="backgroundColor" red="0.69019607839999997" green="0.63529411759999999" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="2EK-Aj-XI4"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                    <state key="normal" title="从 AppStore 获取版本信息"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="getVerisonInfoForAppStoreClick:" destination="-1" eventType="touchUpInside" id="KXf-Fj-CLv"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBV-px-fUc">
+                                    <rect key="frame" x="30" y="120" width="315" height="40"/>
+                                    <color key="backgroundColor" red="0.69019607839999997" green="0.63529411759999999" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="VRJ-Vb-xYC"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                    <state key="normal" title="从服务端获取更新配置信息"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="getVersionInfoForServerClick:" destination="-1" eventType="touchUpInside" id="Sgz-Vm-VRx"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="aPe-ic-P4C" firstAttribute="leading" secondItem="waD-AE-Eji" secondAttribute="leading" constant="30" id="0mk-H8-0uf"/>
+                                <constraint firstItem="FBV-px-fUc" firstAttribute="width" secondItem="aPe-ic-P4C" secondAttribute="width" id="4AF-VP-YjQ"/>
+                                <constraint firstAttribute="height" constant="667" id="ZgF-I7-piB"/>
+                                <constraint firstItem="FBV-px-fUc" firstAttribute="height" secondItem="aPe-ic-P4C" secondAttribute="height" id="bEF-Ow-7cr"/>
+                                <constraint firstAttribute="trailing" secondItem="aPe-ic-P4C" secondAttribute="trailing" constant="30" id="hrC-03-eE3"/>
+                                <constraint firstItem="aPe-ic-P4C" firstAttribute="top" secondItem="waD-AE-Eji" secondAttribute="top" constant="50" id="k0u-DG-Hmq"/>
+                                <constraint firstItem="FBV-px-fUc" firstAttribute="top" secondItem="aPe-ic-P4C" secondAttribute="bottom" constant="30" id="pN0-F8-K0S"/>
+                                <constraint firstItem="FBV-px-fUc" firstAttribute="centerX" secondItem="aPe-ic-P4C" secondAttribute="centerX" id="uEC-ld-MjJ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="waD-AE-Eji" firstAttribute="leading" secondItem="ACu-VF-hLj" secondAttribute="leading" id="645-ld-LbR"/>
+                        <constraint firstItem="waD-AE-Eji" firstAttribute="centerX" secondItem="ACu-VF-hLj" secondAttribute="centerX" id="D52-Zp-Z7Z"/>
+                        <constraint firstAttribute="trailing" secondItem="waD-AE-Eji" secondAttribute="trailing" id="Wh5-ve-GV9"/>
+                        <constraint firstItem="waD-AE-Eji" firstAttribute="top" secondItem="ACu-VF-hLj" secondAttribute="top" id="g0l-Qo-Xfd"/>
+                        <constraint firstAttribute="bottom" secondItem="waD-AE-Eji" secondAttribute="bottom" id="rLF-xu-UdH"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ACu-VF-hLj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0EH-Dn-wRd"/>
+                <constraint firstAttribute="bottom" secondItem="ACu-VF-hLj" secondAttribute="bottom" id="Lj9-RF-JBK"/>
+                <constraint firstItem="ACu-VF-hLj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bLc-J8-p66"/>
+                <constraint firstAttribute="trailing" secondItem="ACu-VF-hLj" secondAttribute="trailing" id="r9o-Ib-soX"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

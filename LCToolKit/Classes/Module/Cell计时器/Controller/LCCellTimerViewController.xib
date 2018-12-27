@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LCCellTimerViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jy5-UN-mQc">
+                    <rect key="frame" x="10" y="10" width="355" height="45"/>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="O95-Qv-rMj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="方式一">
+                        <color key="titleColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showCellOnClick:" destination="-1" eventType="touchUpInside" id="Dtj-Kw-F8V"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9f-kv-gnz">
+                    <rect key="frame" x="10" y="75" width="355" height="45"/>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="qz0-BM-Xhu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="方式二">
+                        <color key="titleColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showCellOnClick:" destination="-1" eventType="touchUpInside" id="yOt-Tb-tm8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b52-PF-5KS">
+                    <rect key="frame" x="10" y="140" width="355" height="45"/>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="LbM-ZK-ZGt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="方式三">
+                        <color key="titleColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showCellOnClick:" destination="-1" eventType="touchUpInside" id="UJq-lo-5pq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIr-SG-2Je">
+                    <rect key="frame" x="10" y="205" width="355" height="45"/>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="58T-4u-hGH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="方式四">
+                        <color key="titleColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showCellOnClick:" destination="-1" eventType="touchUpInside" id="GF9-2g-D2r"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUw-ZJ-2MU">
+                    <rect key="frame" x="10" y="270" width="355" height="45"/>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="zwO-ol-h70"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="方式五">
+                        <color key="titleColor" red="0.28627450980000002" green="0.28627450980000002" blue="0.28627450980000002" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showCellOnClick:" destination="-1" eventType="touchUpInside" id="Mib-3w-LXv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="b52-PF-5KS" firstAttribute="top" secondItem="c9f-kv-gnz" secondAttribute="bottom" constant="20" id="3Oe-GM-Kxh"/>
+                <constraint firstItem="hIr-SG-2Je" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="4pB-SX-vRF"/>
+                <constraint firstItem="BUw-ZJ-2MU" firstAttribute="top" secondItem="hIr-SG-2Je" secondAttribute="bottom" constant="20" id="6Sz-Mo-rZG"/>
+                <constraint firstAttribute="trailing" secondItem="jy5-UN-mQc" secondAttribute="trailing" constant="10" id="AFr-TN-hpL"/>
+                <constraint firstAttribute="trailing" secondItem="c9f-kv-gnz" secondAttribute="trailing" constant="10" id="FKl-ef-i1U"/>
+                <constraint firstItem="c9f-kv-gnz" firstAttribute="top" secondItem="jy5-UN-mQc" secondAttribute="bottom" constant="20" id="KbE-n2-g8K"/>
+                <constraint firstAttribute="trailing" secondItem="hIr-SG-2Je" secondAttribute="trailing" constant="10" id="QM2-3p-loX"/>
+                <constraint firstItem="b52-PF-5KS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="QlO-VA-KbL"/>
+                <constraint firstAttribute="trailing" secondItem="b52-PF-5KS" secondAttribute="trailing" constant="10" id="bzd-E3-HfU"/>
+                <constraint firstAttribute="trailing" secondItem="BUw-ZJ-2MU" secondAttribute="trailing" constant="10" id="dB2-3w-5RH"/>
+                <constraint firstItem="hIr-SG-2Je" firstAttribute="top" secondItem="b52-PF-5KS" secondAttribute="bottom" constant="20" id="kl3-Sm-QIy"/>
+                <constraint firstItem="BUw-ZJ-2MU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="sWn-wP-dQu"/>
+                <constraint firstItem="c9f-kv-gnz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="uP1-Ym-HdZ"/>
+                <constraint firstItem="jy5-UN-mQc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="wA7-QT-j9O"/>
+                <constraint firstItem="jy5-UN-mQc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="ytP-Le-vTN"/>
+            </constraints>
+            <point key="canvasLocation" x="168.80000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+</document>
