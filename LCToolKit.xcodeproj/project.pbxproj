@@ -169,6 +169,9 @@
 		5AC8879921BE0616002E406A /* LCTimerFiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC8879721BE0616002E406A /* LCTimerFiveCell.xib */; };
 		5AC887A721BE0B33002E406A /* LCTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC887A521BE0B33002E406A /* LCTimerViewController.m */; };
 		5AC887A821BE0B33002E406A /* LCTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC887A621BE0B33002E406A /* LCTimerViewController.xib */; };
+		5ADD7D1921D5D15000A0A600 /* LCDYLodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD7D1721D5D15000A0A600 /* LCDYLodingViewController.m */; };
+		5ADD7D1A21D5D15000A0A600 /* LCDYLodingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADD7D1821D5D15000A0A600 /* LCDYLodingViewController.xib */; };
+		5ADD7D1D21D5D16300A0A600 /* LCDYLodingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD7D1C21D5D16300A0A600 /* LCDYLodingView.m */; };
 		5ADF2D8B208583DB00A13402 /* LCNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF2D89208583DB00A13402 /* LCNetViewController.m */; };
 		5ADF2D8C208583DB00A13402 /* LCNetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADF2D8A208583DB00A13402 /* LCNetViewController.xib */; };
 		5ADF2D8F208584FE00A13402 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF2D8E208584FE00A13402 /* Reachability.m */; };
@@ -424,6 +427,11 @@
 		5AC887A421BE0B33002E406A /* LCTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTimerViewController.h; sourceTree = "<group>"; };
 		5AC887A521BE0B33002E406A /* LCTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTimerViewController.m; sourceTree = "<group>"; };
 		5AC887A621BE0B33002E406A /* LCTimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LCTimerViewController.xib; sourceTree = "<group>"; };
+		5ADD7D1621D5D15000A0A600 /* LCDYLodingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCDYLodingViewController.h; sourceTree = "<group>"; };
+		5ADD7D1721D5D15000A0A600 /* LCDYLodingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCDYLodingViewController.m; sourceTree = "<group>"; };
+		5ADD7D1821D5D15000A0A600 /* LCDYLodingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LCDYLodingViewController.xib; sourceTree = "<group>"; };
+		5ADD7D1B21D5D16300A0A600 /* LCDYLodingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCDYLodingView.h; sourceTree = "<group>"; };
+		5ADD7D1C21D5D16300A0A600 /* LCDYLodingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCDYLodingView.m; sourceTree = "<group>"; };
 		5ADF2D88208583DB00A13402 /* LCNetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCNetViewController.h; sourceTree = "<group>"; };
 		5ADF2D89208583DB00A13402 /* LCNetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCNetViewController.m; sourceTree = "<group>"; };
 		5ADF2D8A208583DB00A13402 /* LCNetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LCNetViewController.xib; sourceTree = "<group>"; };
@@ -956,6 +964,7 @@
 		5A43B9BE1FDA5C9800317529 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				5ADD7D1321D5D11E00A0A600 /* 抖音加载动画 */,
 				5A3B003E21C9E97D007BBD38 /* 新闻分类拖动重排 */,
 				5AC8876A21BE0394002E406A /* Cell计时器 */,
 				5A06BFF721BA1FFB00739B9D /* 多视图连续滚动 */,
@@ -1147,6 +1156,34 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		5ADD7D1321D5D11E00A0A600 /* 抖音加载动画 */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD7D1421D5D12C00A0A600 /* Controller */,
+				5ADD7D1521D5D13300A0A600 /* View */,
+			);
+			path = "抖音加载动画";
+			sourceTree = "<group>";
+		};
+		5ADD7D1421D5D12C00A0A600 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD7D1621D5D15000A0A600 /* LCDYLodingViewController.h */,
+				5ADD7D1721D5D15000A0A600 /* LCDYLodingViewController.m */,
+				5ADD7D1821D5D15000A0A600 /* LCDYLodingViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5ADD7D1521D5D13300A0A600 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD7D1B21D5D16300A0A600 /* LCDYLodingView.h */,
+				5ADD7D1C21D5D16300A0A600 /* LCDYLodingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5ADF2D862085832100A13402 /* 网络监测 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1290,6 +1327,7 @@
 				5AC8878521BE05CA002E406A /* LCTimerOneCell.xib in Resources */,
 				5A06BFFD21BA3DA900739B9D /* LCLinkageViewController.xib in Resources */,
 				5A6BED6B1FDE725000E22D13 /* LCUserViewController.xib in Resources */,
+				5ADD7D1A21D5D15000A0A600 /* LCDYLodingViewController.xib in Resources */,
 				5A06C05C21BA519200739B9D /* recomand_06.jpg in Resources */,
 				5A3F3F71207DFBD900A913BC /* ContainerCell.xib in Resources */,
 				5A06C05A21BA519200739B9D /* recomand_16.jpg in Resources */,
@@ -1449,6 +1487,7 @@
 				5A43B9E71FDA5CC800317529 /* UIColor+LCExtension.m in Sources */,
 				5ADF2D952085C2AF00A13402 /* LCADSViewController.m in Sources */,
 				5A06BFFC21BA3DA900739B9D /* LCLinkageViewController.m in Sources */,
+				5ADD7D1D21D5D16300A0A600 /* LCDYLodingView.m in Sources */,
 				5A43B9E61FDA5CC800317529 /* UIBarButtonItem+LCExtension.m in Sources */,
 				5A43B9DF1FDA5CC800317529 /* NSBundle+LCExtension.m in Sources */,
 				5A06C07C21BA54C900739B9D /* SDCollectionViewCell.m in Sources */,
@@ -1478,6 +1517,7 @@
 				5A3F3F80207EF73200A913BC /* LCTouchViewController.m in Sources */,
 				5A76E9D321C2216B0059C48C /* LCNestTableView.m in Sources */,
 				5A195F361FDFFD7000E14783 /* LCHomeListCell.m in Sources */,
+				5ADD7D1921D5D15000A0A600 /* LCDYLodingViewController.m in Sources */,
 				5A43100D20805375000527E0 /* LCVersionUpdateManager.m in Sources */,
 				5A2EA1912022E97300F908BE /* LCAlertVC.m in Sources */,
 			);

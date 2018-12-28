@@ -4,6 +4,12 @@
 <array>
     <dict>
         <key>class</key>
+        <string>LCDYLodingViewController</string>
+        <key>title</key>
+        <string>抖音加载动画</string>
+    </dict>
+    <dict>
+        <key>class</key>
         <string>LCDaryMenuViewController</string>
         <key>title</key>
         <string>新闻分类 拖动重排</string>
